@@ -215,7 +215,7 @@ REGIONS = {
     }
 }
 
-VALID_KEYS = ["test", "sounava777"]
+VALID_KEYS = ["test", "alien_boss"]
 
 jwt_cache = {
     'ind': {},
