@@ -15,11 +15,9 @@ import os
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-logging.basicConfig(
-    filename='app.log',
-    level=logging.INFO,
-    format='%(asctime)s %(levelname)s: %(message)s'
-)
+logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
+
+
 
 app = Flask(__name__)
 
@@ -215,7 +213,7 @@ REGIONS = {
     }
 }
 
-VALID_KEYS = ["test", "alien_boss"]
+VALID_KEYS = ["test", "sounava777"]
 
 jwt_cache = {
     'ind': {},
